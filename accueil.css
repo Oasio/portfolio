@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100;200;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.presentation{
+    margin: 0;
+    background-color: darkgray;
+}
+
+#header-menu{
+    padding-right: 10px;
+    display: flex;
+    background-color: #2b2b2b;
+    height: 60px;
+    width: 100%;
+    width: max-content;
+    width: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+    font-family: Anybody, cursive;
+    font-weight: 500;
+}
+#menu ul {
+	width: 100%;
+}
+#menu li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+#menu a {
+	display: block;
+	line-height: 60px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu a.dropdown-arrow:after {
+	content: "\25BF";
+	margin-left: 5px;
+}
+#menu li a:hover {
+	color: #CCADAD;
+	background: #f2f2f21a;
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 60px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#menu label:before {
+	font-size: 1.6em;
+	content: "\2261"; 
+	margin-left: 20px;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #BBB8B8;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #CACCCA;
+	color: #9E0E40;
+}
+
+.corp-menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box{
+    border: solid #2b2b2b;
+    border-radius: 10px;
+    background-color: gray;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.box-image{
+    border: solid #2b2b2b;
+    border-radius: 10px;
+    background-color: gray;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+  
+.CV {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 200%;
+    max-height: 200%;
+}
