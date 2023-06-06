@@ -17,7 +17,6 @@
     
   </head>
   <body class="presentation">
-
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
       <symbol xmlns="http://www.w3.org/2000/svg" id="sbx-icon-search-13" viewBox="0 0 40 40">
         <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"
@@ -29,46 +28,100 @@
     </svg>  
 
     
-      
-      
-      <id id = "header-menu">
-     
-        <nav id='menu'>
-          <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
-          <ul>
-            <li><a href='accueil.html'>Présentation général</a></li>
-            <li><a href='liste_vin.html'>Partie Professionnel</a></li>
-            <li><a href='VinsROUGES.html'>Partie Personnel</a></li>
-          </ul>
-        </nav>
-      </id>
+      <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+        <ul>
+          <li><a href='accueil.html'>Présentation général</a></li>
+          <li><a href='liste_vin.html'>Compétence</a></li>
+          <li><a href='VinsROUGES.html'>Mes piliers</a></li>
+          <li><a href='VinsROUGES.html'>Parcours</a></li>
+          <li><a href='VinsROUGES.html'>Expérience Professionnel</a></li>
+          <li><a href='VinsROUGES.html'>Réalisation</a></li>
+          <li><a href='VinsROUGES.html'>Le CV</a></li>
+          <button class="cacher" id="disableButton">............</button>
+        </ul>
+      </nav>
 
       <div class="corp-menu">
-        <div class="box">
-          <h3>Présentation général</h3>
-          <p>Je m'appelle Elouan DANILO, j'ai 19 ans.</p>
-          <p>Je suis en permiere années de BUT informatique.</p>
+        <div class="box-image-text">
+          <h3>C'est bien cacher</h3>
         </div>
-        <div class="box">
+        <div class="box-image-text">
+          <h3>Présentation général</h3>
+          <img src="./image/moi.png" class = "CV"> 
+          <img src="./image/hatsu.png" class = "CV">
+        </div>
+        <div class="box-text">
+          <h3>Mes Compétence</h3>
+          <p>Logiciel que j'ulitise:</p>
+          <ul>
+            <li>Gestion d'une base de données</li>
+            <li>Microsoft Office</li>
+            <li>Visual Studio Code, IntelliJ IDEA</li>
+            <li>SqlDévelopper</li>
+          </ul>
+          <p>Les langagues informatique que j'utilise:</p>
+          <ul>
+            <li>Python</li>
+            <li>Golang</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Skript (Minecraft)</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="box-text">
+          <h3>Parcours</h3>
+          <p>Je suis actuellement en 1ère année de BUT Informatique à l'IUT de Nantes.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="box-text">
+          <h3>Expérience Personnel</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="box-text">
           <h3>Mes piliers - Échecs</h3>
           <p>J'ai découvert les échecs quand j'étais à l'âge 7 ans grâce à mon grand-père, mais début je n'ai pas vraiment apprécier.</p>
           <p>En 5éme, un des professeur de mathématiques créa un club d'échec et c'est là ou j'ai découvert réellement le monde des échecs qui m'a tout de suite plus en particulier le coter statégique.</p>
           <p>Par la suite j'ai continuer les échecs de mon coter jusqu'à mes 19 ans où j'ai rejoint le club d'échec de Nantes.</p>
           <p>C'étais encore plus impressionnant dans ce club car il a des personnes qui sont très forte et ça m'a permis de développer encore plus mes tactiques ainsi que le côté statégique.</p>
           <p>Je n'ai toutefois pas commencer les tournois, je n'ai donc aucun elo FIDE (fédération internation des échecs)</p>
-          <p></p>
-          <p>Voici mon évolution en Rapide (chess.com)</p>
         </div>
-        <div class="box">
+        <div class="box-text">
           <h3>Mes piliers - Natation</h3>
           <p>J'ai découvert se sport par mon oncle qui un grand sportif et j'ai tout suite accorcher, il m'a parmis d'amélioire ma condition physique, mentale et surtout mon endurance.</p>
           <p>J'ai partiqué ce sport pendant 11 ans et 1 année en compétition pour essayer mais je me suis rendu compte que mon but était de me distraire.</p>
-          <p>Voici mes chornometre:</p>
         </div>
 
-        <div class="box">
+        <div class="box-text">
           <h3>Mes piliers - Jeux Vidéo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="box-text"> 
+          <h3>Mes Piliers</h3>
+          <div class="box-piliers">
+            <img src="./image/piliers.png" class="pilier">
+            <div class="sous-pilier">
+              <h3>Échecs</h3>
+            </div>
+            <img src="./image/piliers.png" class="pilier">
+            <div class="sous-pilier">
+              <h3>Natation</h3>
+            </div>
+            <img src="./image/piliers.png" class="pilier">
+            <div class="sous-pilier">
+              <h3>Jeux Vidéo</h3>
+            </div>
+            <img src="./image/piliers.png" class="pilier">
+          </div>
+        </div>
           
+        <div class="box-text">
+          <h3>Réalisation</h3>
+          <p>2019-2020 - Création d'un serveur Minecraft semi-RP en français avec un ami. Il m'a permis de comprendre comment la configuration fonctionnait</p>
+          <p>2020 - Création d'un serveur discord communautaire avec + 5 milles personnes à sont prime. Nous l'avons fait à 5 et il m'a permis de découvrir comment une équipe fonctionnant et comment gérer les modérateurs. J'étais le responsable Staff principal.</p>
+          <p>2021-2022 - Création d'un serveur Minecraft OP prison en anglais avec un ami. Il m'a permis de découvrir le Skript qui un langague uniquement pour minecraft ainsi que d'amélioirer mon anglais</p>
+          <p>2022-Now - Création d'un serveur Minecraft OP prison en français. Pour ce projet je me concentre sur la parti communautaire et j'apprends actuellement le java pour faire mes propres plugins</p>
         </div>
 
 
@@ -76,11 +129,7 @@
           <h3>Le CV</h3>
           <img src="./image/Grey Clean CV Resume Photo.png" class = "CV">
         </div>
-      
-
-
-
-  </body>
+   </body>
 </html>
 
     
