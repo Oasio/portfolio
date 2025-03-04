@@ -5,6 +5,22 @@ import { useInView } from "react-intersection-observer"
 import { AnimatedGradient } from "./ui/animated-gradient"
 
 const experiences = [
+
+  {
+    title: "Application WPF",
+    company: "IT AUTOMATION",
+    location: "Derval, France",
+    period: "Septembre 2024 – Aujourd'hui",
+    description: [
+      "L’adoption de la Clean Architecture pour l’application WPF en C# assure un code structuré, maintenable et testable. Les couches Infrastructure et Application ont été regroupées pour simplifier le développement tout en maintenant une séparation claire des responsabilités.",
+      "Le choix entre Dapper et Entity Framework pour l’accès aux données a été fait après une analyse de leurs performances et de leur facilité d’utilisation. Dapper offre une meilleure performance et plus de contrôle sur les requêtes, tandis qu’Entity Framework facilite le mapping objet-relationnel et la gestion des entités.",
+      "Après avoir connecté les repositories, les services et les DAO à la base de données SQLite, des tests ont été réalisés pour valider le bon fonctionnement de l’application.",
+      "L'architecture MVVM a été adoptée pour structurer l’application WPF, permettant ainsi une séparation nette entre la logique métier (Model), l'interface utilisateur (View) et la gestion des interactions (ViewModel), ce qui facilite la maintenabilité et la testabilité du code.",
+      "Un rendez-vous chez le client est prévu dans le cadre de la méthodologie SCRUM, où nous présenterons l’avancement du projet et recueillerons ses retours pour ajuster notre développement.",
+
+    ],
+    tools: "WPF, C#, SQLite, Rider, Visual Studio, TwinCat, TDD (Test Driven Development), SCRUM",
+  },
   {
     title: "Simulateur machine spécialisée",
     company: "IT AUTOMATION",
@@ -18,21 +34,6 @@ const experiences = [
       "Documentation technique : Rédaction de guides et de tutoriels pour faciliter la prise en main des outils développés et assurer leur pérennité",
     ],
     tools: "Godot, C#, GitLab, Visual Studio, Python, FreeCAD, TwinCat, SCRUM",
-  },
-  {
-    title: "Application WPF - SBC",
-    company: "IT AUTOMATION",
-    location: "Derval, Nantes",
-    period: "Septembre 2024 – Aujourd'hui",
-    description: [
-      "L’adoption de la Clean Architecture pour l’application WPF en C# assure un code structuré, maintenable et testable. Les couches Infrastructure et Application ont été regroupées pour simplifier le développement tout en maintenant une séparation claire des responsabilités.",
-      "Le choix entre Dapper et Entity Framework pour l’accès aux données a été fait après une analyse de leurs performances et de leur facilité d’utilisation. Dapper offre une meilleure performance et plus de contrôle sur les requêtes, tandis qu’Entity Framework facilite le mapping objet-relationnel et la gestion des entités.",
-      "Après avoir connecté les repositories, les services et les DAO à la base de données SQLite, des tests ont été réalisés pour valider le bon fonctionnement de l’application.",
-      "L'architecture MVVM a été adoptée pour structurer l’application WPF, permettant ainsi une séparation nette entre la logique métier (Model), l'interface utilisateur (View) et la gestion des interactions (ViewModel), ce qui facilite la maintenabilité et la testabilité du code.",
-      "Un rendez-vous chez le client est prévu dans le cadre de la méthodologie SCRUM, où nous présenterons l’avancement du projet et recueillerons ses retours pour ajuster notre développement.",
-
-    ],
-    tools: "WPF, C#, SQLite, Rider, Visual Studio, TwinCat, TDD (Test Driven Development), SCRUM",
   },
 ]
 
@@ -53,7 +54,7 @@ const Experience = () => {
           ref={ref}
         >
           <AnimatedGradient className="inline-block">
-            <h2 className="text-3xl md:text-4xl font-bold text-white px-4 py-2">Expériences</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white px-4 py-2">Mes Expériences</h2>
           </AnimatedGradient>
         </motion.div>
         <div className="max-w-4xl mx-auto">
@@ -67,7 +68,7 @@ const Experience = () => {
               whileHover={{ scale: 1.02 }}
             >
               <motion.h3
-                className="text-xl font-semibold text-blue-400 mb-4"
+                className="text-2xl font-semibold text-blue-400 mb-4"
                 whileHover={{ color: "#60A5FA" }}
                 transition={{ duration: 0.3 }}
               >
@@ -83,7 +84,7 @@ const Experience = () => {
               >
                 {exp.location} | {exp.period}
               </motion.p>
-              <ul className="list-disc pl-5 text-gray-300 mb-4">
+              <ul className="text-lg list-disc pl-5 text-gray-300 mb-4">
                 {exp.description.map((item, i) => (
                   <motion.li
                     key={i}

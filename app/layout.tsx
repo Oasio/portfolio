@@ -10,7 +10,6 @@ export const metadata = {
   title: "Elouan DANILO - Portfolio",
   description: "BUT en informatique spécilisée dans la base de donnée et dans la création d'application",
     generator: 'v0.dev',
-    authors: 'Elouan DANILO'
 }
 
 export default function RootLayout({
