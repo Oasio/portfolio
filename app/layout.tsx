@@ -8,8 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Elouan DANILO - Portfolio",
-  description: "BUT en informatique spécilisée dans la base de donnée et dans la création d'application",
-    generator: 'v0.dev',
+  description: "Je suis étudiant en 3e année de BUT Informatique et en alternance chez IT Automation. Passionné par le développement d'applications et par les métiers qui touchent à la Big Data.",
 }
 
 export default function RootLayout({
