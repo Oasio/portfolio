@@ -27,7 +27,7 @@ const About = () => {
     {
       "title": "Les échecs",
       "image": {
-        "src": "/image1.jpg",
+        "src": "https://www.freelogovectors.net/svg05/fide-logo-international-chess-federation.svg",
         "alt": "Image de développement d'application"
       },
       "description": "Ils me permettent de réfléchir même durant mon temps libre. J'aime réfléchir sur mes erreurs, les analyser et les corriger."
@@ -35,7 +35,7 @@ const About = () => {
     {
       "title": "Le vélo",
       "image": {
-        "src": "/image2.jpg",
+        "src": "https://th.bing.com/th/id/OIP.Bx4hQ6IgWRYJsye8I3t8HQAAAA?rs=1&pid=ImgDetMain",
         "alt": "Image de vélo"
       },
       "description": "Il n'y a rien de mieux pour voir du paysage et faire du sport en même temps."
@@ -43,7 +43,7 @@ const About = () => {
     {
       "title": "La natation",
       "image": {
-        "src": "/image3.jpg",
+        "src": "https://img.olympics.com/images/image/private/t_s_w860/t_s_1_1_g_auto/f_auto/primary/jkih3pdmfjrojxl60buz",
         "alt": "Image de natation"
       },
       "description": "C'est pour le sentiment de détente et de bien-être, j'en fais maintenant depuis 14 ans."
@@ -51,7 +51,7 @@ const About = () => {
     {
       "title": "Jeux vidéo",
       "image": {
-        "src": "/image4.jpg",
+        "src": "https://art.pixilart.com/1c020ec9c3ce31a.png",
         "alt": "Image de jeux vidéo"
       },
       "description": "J'aime tout type de jeux mais en particulier Minecraft pour la liberté créative immense."
@@ -101,13 +101,13 @@ const About = () => {
             <h3 className="text-3xl font-bold text-white mb-4">Mes Passions</h3>
             <div className="flex flex-wrap justify-center">
               {passions.map((passion, index) => (
-                  <div key={index} className="mb-12 w-1/2 lg:w-1/2 xl:w-2/4 p-4 flex flex-col items-center">
+                  <div key={index} className="mb-12 w-1/1 lg:w-1/1 xl:w-2/4 p-4 flex flex-col items-center">
                     <div className="bg-[#1A1A1A] rounded-lg shadow-md p-4 w-full h-full flex flex-col items-center">
                       <h5 className="text-2xl font-bold text-white mb-4">{passion.title}</h5>
                       <Image
                           src={passion.image.src}
                           alt={passion.image.alt}
-                          width={100}
+                          width={200}
                           height={100}
                           className="w-full h-full object-cover filter brightness-100 hover:brightness-110 transition-all mb-4"
                       />
