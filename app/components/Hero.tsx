@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-30 animate-pulse" />
             <div className="absolute inset-0">
               <Image
-                src="https://hebbkx1anhila5yf.public.blobvercel-storage.com/IMG_4855.jpg-hWpEVVo51gnwazECKM29WZ8CnR6v44.jpeg"
+                src=""
                 alt="Elouan Avatar"
                 layout="fill"
                 objectFit="cover"
