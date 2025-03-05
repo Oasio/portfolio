@@ -28,7 +28,7 @@ const Hero = () => {
               />
             </h2>
             <p className="text-xl text-gray-400 mb-8">
-              Je suis étudiant en 3e année de BUT Informatique et en alternance chez IT Automation. Passionné par le développement d'applications et par les métiers qui touchent à la Big Data. Je cherche constamment à m'amélioration et à découvrir de nouvelles choses.
+              Étudiant en 3ᵉ année de BUT Informatique et alternant chez IT Automation, je suis passionné par le développement et la Big Data. Curieux et en quête d'amélioration continue, j’explore sans cesse de nouvelles technologies pour repousser mes limites.
             </p>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}

@@ -45,7 +45,7 @@ const Header = () => {
           transition={{ duration: 0.5 }}
       >
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <Link href="/" className="text-4xl font-bold text-white">
+          <Link href="/" className="text-4xl font-bold text-white hidden lg:block">
             Elouan DANILO
           </Link>
           <div className="hidden lg:flex space-x-6">
@@ -70,7 +70,7 @@ const Header = () => {
             <span className={`block h-1 w-6 bg-white ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''} transition-transform`}></span>
           </button>
           {isMenuOpen && (
-              <ul className="lg:hidden flex flex-col absolute top-16 right-6 bg-[#0A0A0A] p-4 w-40 border border-gray-800 rounded">
+              <ul className="lg:hidden flex flex-col absolute top-16 left-6 bg-[#0A0A0A] p-4 w-40 border border-gray-800 rounded">
                 {navigationItems.map((item) => (
                     <li key={item.french} className="py-2">
                       <button

@@ -12,11 +12,10 @@ const experiences = [
     location: "Derval, France",
     period: "Septembre 2024 – Aujourd'hui",
     description: [
-      "L'adoption de la Clean Architecture pour l'application WPF en C# assure un code structuré et maintenable. Les couches Infrastructure et Application ont été regroupées pour une meilleure organisation",
-      "Après avoir connecté les repositories, les services et les DAO à la base de données SQLite, des tests ont été réalisés pour valider le bon fonctionnement de l’application.",
-      "L'architecture MVVM a été adoptée pour structurer l'application WPF, permettant une séparation entre la logique métier, l'interface utilisateur et la gestion des interactions.",
-      "Un rendez-vous chez le client est prévu pour présenter l'avancement du projet et recueillir ses retours dans le cadre de la méthodologie SCRUM.",
-
+      "Développement application avec le Framework WPF pour un client",
+      "Utilisation de la Clean Architecture pour simplifier la lisibilité ainsi que la maintenabilité du code",
+      "Adoption de l'architecture MVVM, permettant une séparation la logique métier, l'interface utilisateur et la gestion des interactions.",
+      "Rendez-vous chez le client pour présenter l'avancement du projet et recueillir ses retours"
     ],
     tools: "WPF, C#, SQLite, Rider, Visual Studio, TwinCat, TDD (Test Driven Development), SCRUM",
   },
@@ -26,12 +25,11 @@ const experiences = [
     location: "Derval, France",
     period: "Avril 2024 – Septembre 2024",
     description: [
-      "Critères de sélection : Le logiciel doit être open source, gratuit, compatible avec C# et bénéficier de mises à jour régulières.",
-      "Intégration de modèles 3D : Transfert de modèles 3D de SolidWorks vers des moteurs de jeu, avec optimisation des performances.",
-      "Communication entre l'automate et Godot Engine : Développement d'objets interactifs pour simuler des mécanismes réels, avec une version test fonctionnelle.",
-      "Tests et validation : Tests sur l'interaction entre l'automate et Godot Engine, ainsi que sur le fonctionnement interne des objets développés.",
-      "Documentation : Rédaction de guides et de tutoriels pour faciliter la prise en main des outils développés.",
-    ],
+      "Automatisation et optimisation de la conception CAO",
+      "Simulation des actionneurs avec visualisation des déplacement progressif",
+      "Liaison entre l'automate et le moteur graphique",
+      "Tester les automates avec le moteur graphique",
+      "Documentation du logiciel pour assurer ça compréhension"],
     tools: "Godot, C#, GitLab, Visual Studio, Python, FreeCAD, TwinCat, SCRUM",
   },
 ]

@@ -16,9 +16,9 @@ const About = () => {
   const presentation = {
     title: "Mon Profil",
     texts: [
-      "Je suis étudiant en 3ème année de BUT informatique à Nantes avec de bonnes compétences en développement. Je suis passionnée par le développement d'application et les métiers qui sont dans la big data",
-      "Grâce a mon expérience chez IT AUTOMATION j'ai pu mettre en pratique mes connaissances dans de vrai projet qui auront un impact sur d'autre personne.",
-      "Je fais constament des projets personnel autour de mes passions qui me permette de développer ma méthodologie, mon autonomie ainsi que mes connaissance. Je fais notamment de la veille technologique pour découvrir/appronfondir de nouvelle technologie.",
+      "Étudiant en 3ᵉ année de BUT informatique à Nantes, je suis passionné par le développement d'applications et la Big Data.",
+      "Mon expérience chez IT AUTOMATION m'a permis d'appliquer mes compétences sur des projets concrets à impact réel.",
+      "Curieux et autonome, je réalise régulièrement des projets personnels et fais de la veille technologique pour approfondir mes connaissances et découvrir de nouvelles technologies.",
 
     ],
   }
@@ -30,7 +30,7 @@ const About = () => {
         "src": "https://www.freelogovectors.net/svg05/fide-logo-international-chess-federation.svg",
         "alt": "Image de développement d'application"
       },
-      "description": "Ils me permettent de réfléchir même durant mon temps libre. J'aime réfléchir sur mes erreurs, les analyser et les corriger."
+      "description": "J'aime réfléchir sur mes erreurs, les analyser et les corriger."
     },
     {
       "title": "Le vélo",
