@@ -62,7 +62,7 @@ const Header = () => {
             ))}
           </div>
           <button
-              className="lg:hidden flex flex-col items-center justify-center w-8 h-8 bg-gray-800 rounded"
+              className="lg:hidden flex flex-col items-center justify-center w-8 h-8 bg-gray-800 rounded absolute top-4 right-4 z-20"
               onClick={handleToggleMenu}
           >
             <span className={`block h-1 w-6 bg-white ${isMenuOpen ? 'rotate-45 translate-y-2' : ''} transition-transform`}></span>
@@ -70,7 +70,7 @@ const Header = () => {
             <span className={`block h-1 w-6 bg-white ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''} transition-transform`}></span>
           </button>
           {isMenuOpen && (
-              <ul className="lg:hidden flex flex-col absolute top-16 left-6 bg-[#0A0A0A] p-4 w-40 border border-gray-800 rounded">
+              <ul className="lg:hidden flex flex-col absolute top-16 right-6 bg-[#0A0A0A] p-4 w-40 border border-gray-800 rounded">
                 {navigationItems.map((item) => (
                     <li key={item.french} className="py-2">
                       <button
