@@ -13,7 +13,7 @@ const projects = [
     description:
         "Actuellement, j'ai mis en place le système de connexion des utilisateurs et la logique du jeu d'échecs, avec la gestion des mouvements des pièces et des règles du jeu. Je travaille maintenant sur l'implémentation du système multijoueur, permettant aux joueurs de s'affronter en ligne.",
     image:
-        "https://cdn.discordapp.com/attachments/1044951456953937931/1330903514683019314/image.png?ex=67c70afc&is=67c5b97c&hm=faa98496569987a11d3515393d5f342d105859c47988c128dd6c9be8869c5fe8&",
+        "https://cdn.discordapp.com/attachments/936678410242105444/1346847078143361148/image.png?ex=67c9ac96&is=67c85b16&hm=63b5c1d5ebbd51edc0860eb3ff819a85c1f855fdb5b1255e53ff5032b04823e2&",
     technologies: ["C#", "WPF", "TDD (Test Driven Development)", "Clean Architecture", "SQLite", "MVVM (Model, View, View-Model)"],
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
         "C’est mon serveur Minecraft sur lequel je passe beaucoup de temps. Je m'occupe du développement, de la communication, de la gestion de la boutique et de l'équipe de modération. Il s'agit d'un OP Prison, un mode de jeu proche du simulateur.",
     image:
-        "https://cdn.discordapp.com/attachments/859160802195144735/1336426892072452097/logo_hevalia2.jpg?ex=67c75c88&is=67c60b08&hm=f533564caeca3fe713f1c2b9a300b6472dc1a872a084d3d1d03430f11fb289cc&",
+        "https://cdn.discordapp.com/attachments/936678410242105444/1346846878641291355/logo_hevalia2.png?ex=67c9ac67&is=67c85ae7&hm=3b8fd7700d5380b7308974b87651279456a0768642883f456082666e84db4927&",
     technologies: ["Skript", "Java", "SQLite", "Gestion équipe", "Gestion boutique"],
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     description:
         "Dans le cadre de notre formation à l’IUT, nous avons réalisé un projet en groupe de trois, qui consistait à concevoir un site de e-commerce sur un thème libre. Ce projet devait être développé en PHP en utilisant un framework, ce qui nous a permis d’appliquer des concepts avancés de programmation et de structurer notre code de manière efficace. Afin de garantir un code maintenable et évolutif, nous avons intégré plusieurs design patterns, notamment Strategy, Factory et State",
     image:
-        "https://cdn.discordapp.com/attachments/1159399284895121418/1193067426393378856/logo.jpg?ex=67c7e4a0&is=67c69320&hm=bd8c78a366bf98d75f0698fb1a6d9395f8c16cdc008eed8cd1561339ccde94b7&",
+        "https://cdn.discordapp.com/attachments/936678410242105444/1346846524268871690/logo.png?ex=67c9ac12&is=67c85a92&hm=5ae8eb3a74f7d900f4d1e9673094f20fdac972873c68598bab030b47532911dd&",
     technologies: ["Symfony", "PHP", "HTML", "CSS", "Twig", "MariaDB"],
   },
 ]
