@@ -62,8 +62,8 @@ const About = () => {
   const objectifs = {
     title: "Mes Objectifs",
     texts: [
-      "Mon objectif à long terme est d'améliorer considérablement mon anglais et d'acquérir une expérience professionnelle dans un pays étranger.",
-      "Je souhaite également développer mes compétences en développement d'applications et tout ce qui touche à la base de données.",
+      "Mon objectif est d'améliorer mon anglais et d'acquérir une expérience professionnelle dans un pays étranger.",
+      "Je veux être développer en développement d'applications ou data analyste.",
       "Je suis déterminée à atteindre mes objectifs et à poursuivre mes rêves.",
     ],
   }
