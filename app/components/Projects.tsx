@@ -31,7 +31,7 @@ const projects = [
     description:
         "Avec une équipe de 5 amis, j'ai participé à cet événement où le but était de créer un jeu en 26 heures sur un thème donné. Je me suis occupé de toute la partie back-end et de la logique du jeu.",
     image:
-        "https://codegamejam.extragames.fr/wp-content/uploads/2024/11/CGJ2025-Affiche-9e-edition.jpg",
+        "/game-jam.jpg",
     link: "https://github.com/ArnavJ19/Spotify-User-Engagement-Analysis",
     technologies: ["GDscript", "Godot", "Travail en équipe", "Plein rush"],
   },
