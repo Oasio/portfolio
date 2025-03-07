@@ -13,7 +13,7 @@ const projects = [
     description:
       "J'ai développé le système de connexion des utilisateurs et la logique des échecs. Je travaille maintenant sur l'implémentation du mode multijoueur en ligne.",
     image:
-        "https://cdn.discordapp.com/attachments/936678410242105444/1346847078143361148/image.png?ex=67c9ac96&is=67c85b16&hm=63b5c1d5ebbd51edc0860eb3ff819a85c1f855fdb5b1255e53ff5032b04823e2&",
+        "/application_chess.png",
     technologies: ["C#", "WPF", "TDD (Test Driven Development)", "Clean Architecture", "SQLite", "MVVM (Model, View, View-Model)"],
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
         "Il s'agit mon serveur Minecraft. Je m'occupe du développement, de la communication, de la gestion de la boutique et de l'équipe de modération. Il s'agit d'un OP Prison, un mode de jeu proche du simulateur.",
     image:
-        "https://cdn.discordapp.com/attachments/936678410242105444/1346846878641291355/logo_hevalia2.png?ex=67c9ac67&is=67c85ae7&hm=3b8fd7700d5380b7308974b87651279456a0768642883f456082666e84db4927&",
+        "/logo_hevalia.png",
     technologies: ["Skript", "Java", "SQLite", "Gestion équipe", "Gestion boutique"],
   },
   {
@@ -41,8 +41,8 @@ const projects = [
     description:
         "Dans le cadre de mes études, en groupe de 6, nous avons développé une application mobile médicale. J’ai conçu des interfaces permettant le suivi des traitements médicamenteux, ainsi que l’identification de leurs effets secondaires ou interactions à risque pour les patients.",
     image:
-        "https://cdn.discordapp.com/attachments/936678410242105444/1346563094297710633/Capture_d_ecran_2025-03-04_200634-removebg-preview.png?ex=67c8a41b&is=67c7529b&hm=6757ca05082ccd87381f92dd22b614d01299644f248c22ceaea5a97ed67cf203&",
-    link: "https://github.com/ArnavJ19/TradeAnalysis",
+        "/application_medical.png",
+    link: "",
     technologies: ["Kotlin", "SQLite", "MongoDB", "TypeScript", "NodeJS", "Travail en équipe"],
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     description:
         "Dans le cadre de notre formation à l’IUT, en groupe de 3, nous avons réalisé un projet visant à créer un site e-commerce sur un thème libre. Je me suis chargé de toute la logique du site ainsi que de la gestion de la base de données.",
     image:
-        "https://cdn.discordapp.com/attachments/936678410242105444/1346846524268871690/logo.png?ex=67c9ac12&is=67c85a92&hm=5ae8eb3a74f7d900f4d1e9673094f20fdac972873c68598bab030b47532911dd&",
+        "/logo_epice&halle.png",
     technologies: ["Symfony", "PHP", "HTML", "CSS", "Twig", "MariaDB"],
   },
 ]
