@@ -29,7 +29,7 @@ const experiences = [
       "Simulation des actionneurs avec visualisation des déplacement progressif",
       "Liaison entre l'automate et le moteur graphique",
       "Tester les automates avec le moteur graphique",
-      "Documentation du logiciel pour assurer ça compréhension"],
+      "Documentation du logiciel pour assurer sa compréhension"],
     tools: "Godot, C#, GitLab, Visual Studio, Python, FreeCAD, TwinCat, SCRUM",
   },
 ]
