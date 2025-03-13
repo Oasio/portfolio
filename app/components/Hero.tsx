@@ -5,6 +5,13 @@ import Image from "next/image"
 import { AnimatedGradient } from "./ui/animated-gradient"
 import { Spotlight } from "./ui/spotlight"
 
+const scrollToContact = () => {
+  const section = document.getElementById("contact")
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" })
+  }
+}
+
 const Hero = () => {
   return (
       <Spotlight className="min-h-screen flex items-center justify-center bg-[#0A0A0A] overflow-hidden font-poppins">
@@ -37,7 +44,7 @@ const Hero = () => {
             >
 
               <motion.a
-                  href="#contact"
+                  onClick={scrollToContact}
                   className="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden rounded-full bg-gradient-to-r from-blue-600 to-blue-400 transition-transform duration-300 ease-out hover:scale-105"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -45,6 +52,7 @@ const Hero = () => {
               >
                 <span className="relative text-white font-semibold text-xl">Contact</span>
               </motion.a>
+
 
             </motion.div>
           </motion.div>

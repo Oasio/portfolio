@@ -13,7 +13,7 @@ const Contact = () => {
   })
 
   const contactInfo = [
-    { icon: Mail, text: "elouan2003.danilo@gmail.com", href: "" },
+    { icon: Mail, text: "elouan2003.danilo@gmail.com"},
     { icon: Linkedin, text: "LinkedIn", href: "https://www.linkedin.com/in/elouan-danilo-158a94296/" },
     { icon: Phone, text: "06 11 84 08 36"},
   ]
