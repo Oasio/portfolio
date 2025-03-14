@@ -16,7 +16,7 @@ const About = () => {
   const presentation = {
     title: "Mon Profil",
     texts: [
-      "Je suis étudiant en 3ème année de BUT informatique à Nantes avec de bonnes compétences en développement. Je suis passionnée par le développement d'application et les métiers qui sont dans la big data",
+      "Je suis étudiant en 3ème année de BUT informatique à Nantes avec de bonnes compétences en développement. Je suis passionné par le développement d'application et les métiers qui sont dans la big data.",
       "Grâce a mon expérience chez IT AUTOMATION j'ai pu mettre en pratique mes connaissances dans de vrai projets qui auront un impact sur d'autre personne.",
       "Je fais constament des projets personnel autour de mes passions qui me permette de développer ma méthodologie, mon autonomie ainsi que mes connaissance. Je fais notamment de la veille technologique pour découvrir/appronfondir de nouvelles technologies.",
 
